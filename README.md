@@ -1,1 +1,1 @@
-# AI-Health-Assistant-Platform
+# AI-Health-Assistant-Platform-App
