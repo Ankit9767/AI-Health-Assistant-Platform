@@ -8,4 +8,6 @@ import java.util.List;
 public interface ChatSessionRepository extends JpaRepository<ChatSession, Long> {
 
     List<ChatSession> findByUserIdAndIsDeletedFalse(Long userId);
+
+    List<ChatSession> findByUserIdOrderByCreatedAtDesc(Long userId);
 }

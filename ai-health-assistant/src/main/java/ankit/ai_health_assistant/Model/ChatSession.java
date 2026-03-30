@@ -22,6 +22,7 @@ public class ChatSession {
     private String title;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "chat_language")
     private Language language;
 
     private Boolean isDeleted = false;
